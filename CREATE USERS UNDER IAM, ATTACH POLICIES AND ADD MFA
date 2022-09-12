@@ -1,4 +1,4 @@
-# CREATING IAM USERS AND ADDING MFA TO USER ATTACH POLICIES
+# CREATING IAM USERS, ATTACH POLICIES AND ADD MFA
 
 Identity and Access Management is a service that you use to grant permissions to users who are using different AWS Services.
 
