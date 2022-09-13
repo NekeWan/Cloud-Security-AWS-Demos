@@ -34,6 +34,6 @@ MFA (Multi Factor Authentication), it is an extra layer of security and prevents
 Setting MFA for users: You click on a user and then navigiate to security credentials, it will provide a list of MFA devices you would want to assign.
 The most appropriate in this case is Virtual MFA device which will require the users to have an authenticator app in their mobiles or computers.
 
-Once the authenticator app is installed, a QR code will be provided fro scannin, it is important to have it stored as the user can lose their passwords,
+Once the authenticator app is installed, a QR code will be provided for scanning, it is important to have it stored as the user can lose their passwords,
 it is important in retrieving the user's account. After scanning the QR code, the app authenticator generates passwords and you will be required to type in 2 consecutive 
 MFA codes to assign MFA.
