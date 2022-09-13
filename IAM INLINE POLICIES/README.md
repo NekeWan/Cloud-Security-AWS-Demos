@@ -33,6 +33,7 @@ The next step is for adding tags and for easy reference, I added a name, which w
 I then created user and downloaded the user credentials by clicking : Download csv, it contains the link that the user will use to login to the AWS Console.
 
 Permissions for Users:
+
 Notably, upto now the user doesn't have a policy attached so you have to attach an inline policy directly to the user to say what they can do.
 The inline policy is ONLY SPECIFIC to this user.
 
@@ -45,6 +46,7 @@ Copy and paste the code to attach to the user and click on review policy. I name
 Now, we have a user: "Auditor" and the permission attached "AuditorReadOnly" so when this user logs in they'll have read-only permissions.
 
 Permissions for services:
+
 You can also give permissions for services. For example, you want to give read-only permissions one service only, specifically S3
 
 Go back to Users, click on Auditor then click on add permission, you choose "attach existing policies directly".
